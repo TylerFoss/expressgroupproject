@@ -2,15 +2,15 @@
   {
       "id": 1,
       "name": "John Doe",
-      "review": "This course is awesome",
-      "Rating": 5,
+      "review": "Needs improvement. Great material but the teaching methods were very odd.",
+      "Rating": 3,
       "course_id": 1
 
   },
   {
       "id": 2,
       "name": "Jane Doe",
-      "review": "This course is awesome",
+      "review": "Had the best time of my life. You guys really know how to make learning fun and not challenging. Yeah, the material was challenging.",
       "Rating": 5,
       "course_id": 2
 
@@ -18,8 +18,8 @@
   {
       "id": 3,
       "name": "Doe",
-      "review": "This course is awesome",
-      "Rating": 5,
+      "review": "Absolutely terrible. I will never take this course again or recommend it to friends and family. How do you stay open?!?",
+      "Rating": 1,
       "course_id": 3
 
   }

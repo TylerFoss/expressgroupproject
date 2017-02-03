@@ -21,6 +21,7 @@
     <div class="container">
     <% if(course) { %>
     <h1><%= course.name %></h1>
+    <hr/>
         <div class="row">   
           <div class="col m2">
             <img src="<%= course.image %>" class="left responsive-img" width="200"/>
@@ -29,16 +30,16 @@
               <p><%= course.description %></p>
           </div>
           <Div class="col m2">
-              <p><%= course.price %></p>
-              <p><%= course.course_length %></p>
+              <p><b>Price:</b> $ <%= course.price %>.00</p>
+              <p><b>Lenght:</b> <%= course.course_length %></p>
           </div>
         </div>
         <div class="row grey lighten-2">
           <div class="col s10">
             <p>
                <b>Author:</b> <%= review.name %>
-               </br>
-              <%= review.Review %>
+              <small><i>Rating:</i> <%= review.Rating %> stars</small><br/>
+              <%= review.review %>
             </p>
           </div>
         </div>
