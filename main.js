@@ -15,20 +15,20 @@ app.get('/', function(request, response){
 
 app.get('/courses', function(req, res){
     fs.readFile('courses.json', 'utf8', function(err, data){
-        var products = JSON.parse(data);
-        res.locals = { products: products };
+        var courses = JSON.parse(data);
+        res.locals = { courses: courses };
         res.render('courses.ejs');
 
     });
 });
 
 app.get('/courses/:id', function ( req, res ) {
-    fs.readFile('coursess.json', 'utf8', function ( err, data ){
-        var productParse = JSON.parse(data)
-        var product = productParse.filter(function(p){
+    fs.readFile('courses.json', 'utf8', function ( err, data ){
+        var courseParse = JSON.parse(data)
+        var course = courseParse.filter(function(p){
             return p.id === parseInt(req.params.id);
         })[0];
-        res.locals = { product: product }
+        res.locals = { courses: courses }
         res.render('course.ejs');
     });
 });

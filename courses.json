@@ -1,0 +1,23 @@
+[
+  {
+      "id": 1,
+      "name": "Full Time Web Development",
+      "price": 150,
+      "description": "World's fastest broom",
+      "course_length": "1 year"
+  },
+  {
+      "id": 2,
+      "name": "Part Time Web Development",
+      "price": 100,
+      "description": "World's slowest broom",
+      "course_length": "6 months"
+  },
+  {
+      "id": 3,
+      "name": "Part Time UI",
+      "price": 200,
+      "description": "World's slowest broom",
+      "course_length": "6 months"
+  }
+]

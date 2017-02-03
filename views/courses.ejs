@@ -1,0 +1,20 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+<div class="container">
+    <div class="row">
+        <div class="col m3"> <b>Name</b> </div>
+        <div class="col m3"> <b>Price</b> </div>
+        <div class="col m3"> <b>Description</b> </div>
+        <div class="col m3"> <b>View</b> </div>
+    </div>
+
+ <% courses.forEach ( function ( course ) { %>
+        <div class="row">
+            <div class="col m3"> <%= course.name %> </div>
+            <div class="col m3"> <%= course.price %> </div>
+            <div class="col m3"> <%= course.description %> </div>
+            <div class="col m3"> <a href="<%= '/course/'+ course.id %>">View</a> </div>
+        </div>
+<% }); %>
+</div>
