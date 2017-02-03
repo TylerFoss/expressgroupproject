@@ -1,0 +1,26 @@
+[
+  {
+      "id": 1,
+      "name": "John Doe",
+      "review": "This course is awesome",
+      "Rating": 5,
+      "course_id": 1
+
+  },
+  {
+      "id": 2,
+      "name": "Jane Doe",
+      "review": "This course is awesome",
+      "Rating": 5,
+      "course_id": 2
+
+  },
+  {
+      "id": 3,
+      "name": "Doe",
+      "review": "This course is awesome",
+      "Rating": 5,
+      "course_id": 3
+
+  }
+]
