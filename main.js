@@ -1,4 +1,4 @@
-var express = require('express'); 
+var express = require('express');
 var ejs = require('ejs');
 var fs = require('fs');
 
@@ -28,7 +28,7 @@ app.get('/courses/:id', function ( req, res ) {
         var course = courseParse.filter(function(p){
             return p.id === parseInt(req.params.id);
         })[0];
-        res.locals = { courses: courses }
+        res.locals = { course: course }
         res.render('course.ejs');
     });
 });

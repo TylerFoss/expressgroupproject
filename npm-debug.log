@@ -1,5 +1,8 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'start' ]
+1 verbose cli [ '/usr/local/Cellar/node/7.4.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
 2 info using npm@4.0.5
 3 info using node@v7.4.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
@@ -7,8 +10,8 @@
 6 silly lifecycle expressgroupproject@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle expressgroupproject@1.0.0~start: expressgroupproject@1.0.0
 8 verbose lifecycle expressgroupproject@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle expressgroupproject@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/Phoodtruck/dpl/projects/express_assignment/expressgroupproject/node_modules/.bin:/Users/Phoodtruck/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/ImageMagick/bin
-10 verbose lifecycle expressgroupproject@1.0.0~start: CWD: /Users/Phoodtruck/dpl/projects/express_assignment/expressgroupproject
+9 verbose lifecycle expressgroupproject@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/ty/Desktop/DevPointLabs/Week2/expressgroupproject/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle expressgroupproject@1.0.0~start: CWD: /Users/ty/Desktop/DevPointLabs/Week2/expressgroupproject
 11 silly lifecycle expressgroupproject@1.0.0~start: Args: [ '-c', 'node main.js' ]
 12 silly lifecycle expressgroupproject@1.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle expressgroupproject@1.0.0~start: Failed to exec start script
@@ -23,9 +26,9 @@
 14 verbose stack     at maybeClose (internal/child_process.js:885:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid expressgroupproject@1.0.0
-16 verbose cwd /Users/Phoodtruck/dpl/projects/express_assignment/expressgroupproject
-17 error Darwin 15.6.0
-18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "start"
+16 verbose cwd /Users/ty/Desktop/DevPointLabs/Week2/expressgroupproject
+17 error Darwin 16.3.0
+18 error argv "/usr/local/Cellar/node/7.4.0/bin/node" "/usr/local/bin/npm" "run" "start"
 19 error node v7.4.0
 20 error npm  v4.0.5
 21 error code ELIFECYCLE

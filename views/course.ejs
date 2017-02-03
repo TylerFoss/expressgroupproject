@@ -1,0 +1,9 @@
+<a href='/courses'>Back</a>
+<% if(course) { %>
+   <h1><%= course.name %></h1>
+   <h3><%= course.description %></h3>
+   <h3>$<%= course.price %></h3>
+   <h3>$<%= course.course_length %></h3>
+<% } else { %>
+   <h1>Course not found</h1>
+<% } %>
