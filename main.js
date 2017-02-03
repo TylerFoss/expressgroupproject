@@ -4,9 +4,10 @@ var fs = require('fs');
 
 var app = express();
 
-
+/*
 var contactFileName = './contact_info.json';
 var contactFile = require(contactFileName);
+*/
 
 var port = 8000;
 
@@ -51,7 +52,7 @@ app.get('/contact', function(req, res){
    res.render('contact.ejs');
 });
 
-
+/*
 app.post('/contact/add', function(req, res){
     var contact_obj = {
         "name" : req.params.name,
@@ -59,11 +60,14 @@ app.post('/contact/add', function(req, res){
     };
 
     fs.writeFile(contactFileName, JSON.stringify(contact_obj), function (err) {
-        if(err){ console.log(err); }
-       console.log();
+      
     });
+
+    res.render('contact_sent.ejs');
+
     
 });
+*/
 
 
 app.listen(port);
