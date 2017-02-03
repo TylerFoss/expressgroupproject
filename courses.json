@@ -4,20 +4,23 @@
       "name": "Full Time Web Development",
       "price": 150,
       "description": "World's fastest broom",
-      "course_length": "1 year"
+      "course_length": "1 year",
+      "image": "http://course-view.com/courses_img/Teaching%20picture.jpg"
   },
   {
       "id": 2,
       "name": "Part Time Web Development",
       "price": 100,
       "description": "World's slowest broom",
-      "course_length": "6 months"
+      "course_length": "6 months",
+      "image" : "http://www.uni-regensburg.de/international/austausch-programmstudierende/medien/image_studieren_ar__1_.jpeg"
   },
   {
       "id": 3,
       "name": "Part Time UI",
       "price": 200,
       "description": "World's slowest broom",
-      "course_length": "6 months"
+      "course_length": "6 months",
+      "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOKxl9UyitVkQXL3OMxnsrcQ0lzpjcPdUtkQmTFV4AATVMZbj9zg"
   }
 ]
