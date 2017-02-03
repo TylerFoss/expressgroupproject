@@ -22,14 +22,27 @@
     <% if(course) { %>
     <h1><%= course.name %></h1>
         <div class="row">   
-            <div class="col m10">
-                <p><img src="<%= course.image %>" class="left" width="200"/><%= course.description %></p>
-            </div>
-            <Div class="col m2">
-                <p><%= course.price %></p>
-                <p><%= course.course_length %></p>
-            </div>
+          <div class="col m2">
+            <img src="<%= course.image %>" class="left responsive-img" width="200"/>
+          </div>
+          <div class="col m8">
+              <p><%= course.description %></p>
+          </div>
+          <Div class="col m2">
+              <p><%= course.price %></p>
+              <p><%= course.course_length %></p>
+          </div>
         </div>
+        <div class="row grey lighten-2">
+          <div class="col s10">
+            <p>
+               <b>Author:</b> <%= review.name %>
+               </br>
+              <%= review.Review %>
+            </p>
+          </div>
+        </div>
+
     <% } else { %>
     <h1>Course not found</h1>
     <% } %>
